@@ -1,0 +1,191 @@
+{
+  "location": [
+    41.8781,
+    -93.0977
+  ],
+  "crop_type": "corn",
+  "generated_at": "2025-07-31T11:11:36.090398",
+  "current_alerts": [
+    {
+      "type": "rule_based",
+      "rule_name": "Soil Temperature Alert",
+      "severity": "medium",
+      "message": "SOIL TEMP HIGH: 36.4\u00b0C > 35\u00b0C (optimal for corn)",
+      "recommendation": "Adjust irrigation schedule, consider mulching, monitor seed germination",
+      "timestamp": "2025-07-31T11:11:35.997969",
+      "weather_data": {
+        "temperature": 31.988413689572546,
+        "humidity": 64.35349653579236,
+        "pressure": 1028.815167503435,
+        "wind_speed": 10.053916305797781,
+        "rainfall": 0,
+        "soil_temp": 36.42304342646406,
+        "uv_index": 0.7049960120453228,
+        "timestamp": "2025-07-31T11:11:35.997942"
+      }
+    },
+    {
+      "type": "ml_based",
+      "rule_name": "ML Alert Predictor",
+      "severity": "medium",
+      "message": "ML model predicts high risk conditions (probability: 0.73)",
+      "recommendation": "Review all conditions and take preventive measures",
+      "timestamp": "2025-07-31T11:11:36.081088",
+      "weather_data": {
+        "temperature": 31.988413689572546,
+        "humidity": 64.35349653579236,
+        "pressure": 1028.815167503435,
+        "wind_speed": 10.053916305797781,
+        "rainfall": 0,
+        "soil_temp": 36.42304342646406,
+        "uv_index": 0.7049960120453228,
+        "timestamp": "2025-07-31T11:11:35.997942"
+      },
+      "ml_probability": 0.73
+    }
+  ],
+  "forecast_alerts": [
+    {
+      "type": "forecast",
+      "date": "2025-07-31",
+      "rule_name": "Pest Risk Alert",
+      "severity": "medium",
+      "message": "PEST RISK: Favorable conditions detected (Score: 5/7)",
+      "recommendation": "Monitor crops for pest activity, consider preventive treatments, check pest traps",
+      "weather_data": {
+        "date": "2025-07-31",
+        "temperature_max": 30.189291598046253,
+        "temperature_min": 17.43933577161502,
+        "temperature_avg": 24.150153214800046,
+        "humidity": 90.26958152898891,
+        "rainfall": 0,
+        "wind_speed": 12.211521713232031,
+        "soil_temp": 19.20540846539799,
+        "pressure": 1006.6160121349434,
+        "uv_index": 5.6901440641628716
+      }
+    },
+    {
+      "type": "forecast",
+      "date": "2025-08-01",
+      "rule_name": "Pest Risk Alert",
+      "severity": "medium",
+      "message": "PEST RISK: Favorable conditions detected (Score: 5/7)",
+      "recommendation": "Monitor crops for pest activity, consider preventive treatments, check pest traps",
+      "weather_data": {
+        "date": "2025-08-01",
+        "temperature_max": 27.237374476677168,
+        "temperature_min": 18.305619922744544,
+        "temperature_avg": 23.42760793244777,
+        "humidity": 87.87218251295093,
+        "rainfall": 0,
+        "wind_speed": 5.43983106051889,
+        "soil_temp": 18.741708782003833,
+        "pressure": 1023.152690384721,
+        "uv_index": 9.986786903523829
+      }
+    },
+    {
+      "type": "forecast",
+      "date": "2025-08-02",
+      "rule_name": "Pest Risk Alert",
+      "severity": "medium",
+      "message": "PEST RISK: Favorable conditions detected (Score: 7/7)",
+      "recommendation": "Monitor crops for pest activity, consider preventive treatments, check pest traps",
+      "weather_data": {
+        "date": "2025-08-02",
+        "temperature_max": 27.276746915383743,
+        "temperature_min": 19.96797223997643,
+        "temperature_avg": 26.15579866508872,
+        "humidity": 80.20177954662621,
+        "rainfall": 2.050958663850943,
+        "wind_speed": 1.8321803003634405,
+        "soil_temp": 19.97247984319165,
+        "pressure": 1015.0445462842869,
+        "uv_index": 4.551922014023029
+      }
+    },
+    {
+      "type": "forecast_ml",
+      "date": "2025-08-02",
+      "rule_name": "ML Alert Predictor",
+      "severity": "high",
+      "message": "ML model predicts risk for 2025-08-02 (probability: 0.84)",
+      "recommendation": "Plan preventive measures in advance",
+      "weather_data": {
+        "date": "2025-08-02",
+        "temperature_max": 27.276746915383743,
+        "temperature_min": 19.96797223997643,
+        "temperature_avg": 26.15579866508872,
+        "humidity": 80.20177954662621,
+        "rainfall": 2.050958663850943,
+        "wind_speed": 1.8321803003634405,
+        "soil_temp": 19.97247984319165,
+        "pressure": 1015.0445462842869,
+        "uv_index": 4.551922014023029
+      },
+      "ml_probability": 0.84
+    },
+    {
+      "type": "forecast",
+      "date": "2025-08-04",
+      "rule_name": "Pest Risk Alert",
+      "severity": "medium",
+      "message": "PEST RISK: Favorable conditions detected (Score: 5/7)",
+      "recommendation": "Monitor crops for pest activity, consider preventive treatments, check pest traps",
+      "weather_data": {
+        "date": "2025-08-04",
+        "temperature_max": 25.91701171434485,
+        "temperature_min": 17.52444684922488,
+        "temperature_avg": 24.026917025056534,
+        "humidity": 81.69510332007273,
+        "rainfall": 0,
+        "wind_speed": 10.399914103578967,
+        "soil_temp": 21.74570179827674,
+        "pressure": 1017.1756487019271,
+        "uv_index": 7.478514974669953
+      }
+    },
+    {
+      "type": "forecast",
+      "date": "2025-08-05",
+      "rule_name": "Pest Risk Alert",
+      "severity": "medium",
+      "message": "PEST RISK: Favorable conditions detected (Score: 6/7)",
+      "recommendation": "Monitor crops for pest activity, consider preventive treatments, check pest traps",
+      "weather_data": {
+        "date": "2025-08-05",
+        "temperature_max": 29.655880852005335,
+        "temperature_min": 18.102270925074798,
+        "temperature_avg": 22.687291968237762,
+        "humidity": 66.00048876433725,
+        "rainfall": 8.627002987004058,
+        "wind_speed": 1.42987690110416,
+        "soil_temp": 20.63921713265039,
+        "pressure": 981.8580100873359,
+        "uv_index": 5.379646426610063
+      }
+    }
+  ],
+  "summary": {
+    "total_alerts": 8,
+    "current_alerts_count": 2,
+    "forecast_alerts_count": 6,
+    "severity_breakdown": {
+      "medium": 7,
+      "high": 1
+    }
+  },
+  "ml_insights": {
+    "feature_importance": {
+      "soil_temp": 0.37466317363056434,
+      "temperature": 0.2691008147022066,
+      "humidity": 0.18707218000295353,
+      "wind_speed": 0.08648023460061362,
+      "uv_index": 0.02884809076846755,
+      "pressure": 0.02744311522421025,
+      "rainfall": 0.0263923910709841
+    },
+    "model_trained": true
+  }
+}
